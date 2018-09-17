@@ -1,0 +1,19 @@
+plugins {
+    id 'war'
+}
+
+group 'spring_mvc_base'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.springframework:spring-core:5.0.5.RELEASE'
+    compile 'org.springframework:spring-beans:5.0.5.RELEASE'
+    compile 'org.springframework:spring-webmvc:5.0.5.RELEASE'
+    compile 'org.springframework:spring-context:5.0.5.RELEASE'
+    compile 'javax.servlet:javax.servlet-api:4.0.0'
+}
