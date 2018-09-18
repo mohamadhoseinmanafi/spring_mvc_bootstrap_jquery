@@ -13,7 +13,6 @@ public class HelloWorldController {
     @RequestMapping("/hello")
     public ModelAndView helloworld(){
         String message = "hello mr rex welcome to spring mvc world";
-        String rexMessage = "rex come back for killing and eatting";
         return new ModelAndView("hellopage" , "message" , message );
     }
 
@@ -32,7 +31,7 @@ public class HelloWorldController {
     @RequestMapping("/statuspage")
     public ModelAndView statusPage(HttpServletRequest request, HttpServletResponse response){
         String name = request.getParameter("name");
-        String password = request.getParameter("password");
+        String password = request.getParameter("passcode");
         if (password.equals("admin"))
         {
             String helloMessage = "welcome Mr rex to your home page";

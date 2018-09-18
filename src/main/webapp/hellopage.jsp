@@ -24,7 +24,7 @@
 <p class="h4">Message is: ${message}</p>
 <p class="h4">Message is: ${rexxMessage}</p>
 
-    <button type="button" class="btn btn-outline-danger" id="rocky">hey babay</button>
+<button type="button" class="btn btn-outline-danger" id="rocky">hide content</button>
 <a type="button" class="btn btn-outline-dark" href="index.jsp">return back</a>
 <a type="button" class="btn btn-outline-info" href="mhrex.html">mhrex</a>
 

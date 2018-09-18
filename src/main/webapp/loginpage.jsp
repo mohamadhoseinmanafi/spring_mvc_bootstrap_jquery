@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: mWX541909
-  Date: 9/18/2018
-  Time: 3:05 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -26,13 +19,18 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="mhm_jQ.js"></script>
 </head>
+
+
+
+
+
 <body>
 <p class="text-danger">${warnMessage}</p>
 <p>${rexLoginMessage}</p>
 
 <form action="statuspage.html" method="post">
     Name:<input  type="text" name="name"/><br/>
-    Password:<input type="password" name="password"/><br/>
+    Password:<input type="password" name="passcode"/><br/>
     <input type="submit" class="btn btn-outline-dark" value="login"/>
 </form>
 
