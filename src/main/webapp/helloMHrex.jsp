@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: mWX541909
+  Date: 9/18/2018
+  Time: 2:34 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -16,21 +24,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="mhm_jQ.js"></script>
+    <title>nothing</title>
 </head>
-
-
-
 <body>
-<p class="h4">Message is: ${message}</p>
-<p class="h4">Message is: ${rexxMessage}</p>
 
-    <button type="button" class="btn btn-outline-danger" id="rocky">hey babay</button>
-<a type="button" class="btn btn-outline-dark" href="index.jsp">return back</a>
-<a type="button" class="btn btn-outline-info" href="mhrex.html">mhrex</a>
+<p class="text-danger">${message}</p>
+<a type="button" class="btn btn-outline-info" href="rexLogin.html">login</a>
+
 
 </body>
-
-
 </html>
-
-
