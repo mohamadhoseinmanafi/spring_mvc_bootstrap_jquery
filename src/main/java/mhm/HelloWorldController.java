@@ -33,15 +33,15 @@ public class HelloWorldController {
     public ModelAndView statusPage(HttpServletRequest request, HttpServletResponse response){
         String name = request.getParameter("name");
         String password = request.getParameter("password");
-        if (password == "admin")
+        if (password.equals("admin"))
         {
             String helloMessage = "welcome Mr rex to your home page";
-            return new ModelAndView("statusPage","succsessMessage",helloMessage);
+            return new ModelAndView("statusPage","Message",helloMessage);
         }
         else
             {
-                String helloMessage = "it seems you are not Mr rex or you forget the pass";
-                return new ModelAndView("statusPage","succsessMessage",helloMessage);
+                String errormessage = "it seems you are not Mr rex or you forget the pass";
+                return new ModelAndView("statusPage","Message",errormessage);
 
             }
 

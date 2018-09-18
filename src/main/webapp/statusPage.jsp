@@ -11,6 +11,6 @@
     <title>statepage</title>
 </head>
 <body>
-
+${Message}
 </body>
 </html>
