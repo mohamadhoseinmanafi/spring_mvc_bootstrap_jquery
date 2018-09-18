@@ -41,7 +41,7 @@ public class HelloWorldController {
         else
             {
                 String errormessage = "it seems you are not Mr rex or you forget the pass";
-                return new ModelAndView("statusPage","Message",errormessage);
+                return new ModelAndView("loginpage","warnMessage",errormessage);
 
             }
 
